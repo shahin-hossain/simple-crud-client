@@ -35,6 +35,7 @@ function App() {
         <input type="email" name="email" id="" placeholder='email' /> <br />
         <input type="submit" value="Add User" />
       </form>
+
     </>
   )
 }
