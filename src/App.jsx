@@ -21,6 +21,7 @@ function App() {
       .then(res => res.json())
       .then(data => {
         console.log(data)
+        form.reset()
         if (data.insertedId) {
           alert('user is added successfully');
         }
